@@ -5,13 +5,21 @@
 
 :root {
   --background-image: url(../images/cover-image-dark.png);
-  --black-color: #000028;
+  --background-color: #000028;
   --title-color: #DB00FF;
   --accent-color: #FF0070;
+  --corners-buttons-color: var(--accent-color);
+  --main-question-color: var(--accent-color);
+  --subtitle-text-color: var(--background-color);
   --article-text-color: #F1B2CE;
+  --button-hover-color: #FF007066;  --element-visibility: hidden;
   --font-family: 'IBM Plex Mono', monospace;
   --font-size: 18px;
   --normal-font-weight: 400;
   --bold-font-weight: 700;
-  --large-line-height: 23.4px;
+  --normal-line-height: 23.4px;
+  --title-line-height: 95.7px;
+  --button-line-height: 18px;
+  --rec-line-height: 25px;
+  --element-visibility: visible;
 } 

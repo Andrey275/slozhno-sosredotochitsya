@@ -4,15 +4,15 @@
   переключая тему
 */
 
-:root.page.theme_dark {
+.page.theme_dark {
   --background-image: url(../images/cover-image-dark.png);
   --background-color: #000028;
+  --title-color: #DB00FF;
   --accent-color: #FF0070;
-} 
-
-.page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --corners-buttons-color: var(--accent-color);
+  --main-question-color: var(--accent-color);
+  --subtitle-text-color: var(--background-color);
+  --article-text-color: #F1B2CE;
+  --button-hover-color: #FF007066;
+  --element-visibility: visible;
 }
