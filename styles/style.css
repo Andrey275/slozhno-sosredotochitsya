@@ -166,16 +166,6 @@
   letter-spacing: 0%;
 }
 
-.title-decor {
-  color: var(--subtitle-text-color);
-  font-family: var(--font-family);
-  font-weight: var(--bold-font-weight);
-  font-size: var(--font-size);
-  line-height: var(--normal-line-height);
-  text-align: left;
-  background-color: var(--accent-color);
-}
-
 .advice__subtitle {
   font-weight: var(--normal-font-weight);
 }
