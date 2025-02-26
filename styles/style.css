@@ -284,22 +284,22 @@
     gap: 20px;
   }
 
-  .images__item-sunset {
+  .images__grid-upper-left-corner {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
   }
   
-  .images__item-ice-cream {
+  .images__grid-upper-right-corner {
     grid-column: 3 / 4;
     grid-row: 1 / 3;
   }
 
-  .images__item-tape {
+  .images__grid-bottom-left-corner {
     grid-column: 1 / 2;
     grid-row: 2 / 4;
   }
 
-  .images__item-street {
+  .images__grid-bottom-right-corner {
     grid-column: 2 / 4;
     grid-row: 3 / 4;
   }
